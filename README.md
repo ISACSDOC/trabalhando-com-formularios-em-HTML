@@ -27,3 +27,21 @@
 </body>
 </html>
 ```
+## Alguns tipos de inputs
+```
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com formulários em HTML</title>
+</head>
+<body>
+    <form action="">
+        <label for="">Text</label><input type="text"/><br>
+        <label for="">Number</label><input type="number" min="0" max="99" step="5"/><br>
+        <label for="">Button</label><input type="button" value="Enviar"/><br>
+        <label for="">Range</label><input type="range"><br>
+        <label for="">Radio</label><input type="radio" name="rad"><label for=""></label><input type="radio" name="rad"><br>
+    </form>
+</body>
+</html>
+```
