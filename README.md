@@ -88,3 +88,30 @@
 </body>
 </html>
 ```
+## Select e textarea
+```
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com formulários em HTML</title>
+</head>
+<body>
+    <form action="" method="post">
+        <h3>Envie sua dúvida</h3>
+        <label for="">Nome:</label><input type="text"><br>
+        <label for="">Assunto</label><select name="role" >
+            <option value="">Selecione a matéira</option>
+            <option value="Matematica">Matemática</option>
+            <option value="Biologia">Biologia</option>
+            <option value="Fisica">Física</option>
+            <option value="Quimica">Química</option>
+        </select><br>
+        <label for="">Escreva sua dúvida:</label><textarea name="" rows="10" cols="30"></textarea><br>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>
+```
