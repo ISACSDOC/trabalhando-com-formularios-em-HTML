@@ -45,3 +45,25 @@
 </body>
 </html>
 ```
+## Radio e Checkbox
+```
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com formulários em HTML</title>
+</head>
+<body>
+    <form action="" method="post">
+        <h3>Você tem geladeira em casa?</h3>
+        <input type="radio" name="geladeira" value="sim">Sim<br>
+        <input type="radio" name="geladeira" value="nao">Não<br>
+        <h3>Quais itens você tem?</h3>
+        <input type="checkbox" name="itens[]" value="computador">Computador<br>
+        <input type="checkbox" name="itens[]" value="celular">Celular<br>
+        <input type="checkbox" name="itens[]" value="rádio">Rádio<br>
+
+    </form>
+</body>
+</html>
+```
