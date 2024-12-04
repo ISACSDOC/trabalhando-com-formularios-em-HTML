@@ -67,3 +67,24 @@
 </body>
 </html>
 ```
+## Alguns tipos de buttons
+```
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com formulários em HTML</title>
+</head>
+<body>
+    <form action="" method="post">
+        <h3>Você tem geladeira em casa?</h3>
+        <input type="radio" name="geladeira" value="sim">Sim<br>
+        <input type="radio" name="geladeira" value="nao">Não<br>
+        <button type="button" onclick="alert('Cliquei aqui')">Clicável</button>
+        <button type="reset">Vai limpar os campos</button>
+        <button type="submit">Enviar o formulário</button>
+
+    </form>
+</body>
+</html>
+```
